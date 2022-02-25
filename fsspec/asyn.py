@@ -158,7 +158,7 @@ except ImportError:
     resource = None
     ResourceError = OSError
 else:
-    ResourceEror = resource.error
+    ResourceError = resource.error
 
 _DEFAULT_BATCH_SIZE = 128
 _NOFILES_DEFAULT_BATCH_SIZE = 1280
